@@ -14,9 +14,9 @@ import { IoIosNotificationsOutline } from "react-icons/io";
 const Header = () => {
     return (
         <>
-            <div className='bg-slate-200 w-screen h-12 flex  items-center text-black p-5 justify-between'>
+            <div className='bg-slate-200 w-screen h-12 flex  items-center text-black px-5 py-9 justify-between fixed top-0'>
                 <div className='flex gap-5'>
-                    <IoReorderThree size={30} className='hidden sm:block' />
+                    <IoReorderThree size={35} className='hidden sm:block hover:bg-slate-300 rounded-xl ml-4 p-1' />
                     <h1 className='font-bold text-2xl '>YouTube</h1>
                 </div>
 
