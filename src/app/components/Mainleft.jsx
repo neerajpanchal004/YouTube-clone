@@ -11,7 +11,7 @@ import { FiYoutube } from "react-icons/fi";
 const Mainleft = () => {
     return (
         <>
-            <div className='flex flex-col bg-slate-200 w-[7.5%] px-2 py-5 items-center justify-center fixed top-10 left-0'>
+            <div className='flex w-full h-12 sm:h-auto sm:flex-col bg-slate-200 sm:w-[7.5%] px-2 py-5 items-center justify-center fixed bottom-0 sm:top-10 sm:left-0'>
             
 
                 <div className='flex flex-col cursor-pointer rounded-xl hover:bg-slate-300 justify-center items-center  w-full h-20'>

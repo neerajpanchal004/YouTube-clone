@@ -5,9 +5,9 @@ import Image from 'next/image'
 const Vedio = () => {
   return (
 <>
-<div className='w-[252px] h-64 flex flex-col '>
-    <Image 
-    src="/img/vedioimg.png" width={252} height={200}/>
+<div className='w-[400px] sm:w-[300px] lg:w-[252px] h-64 flex flex-col '>
+    <img
+    src="/img/vedioimg.png" className='w-full'/>
     <div className='flex mt-2 justify-around'>
         <img src='/icons/vedioicon.jpg' alt='icon' className='w-10 h-8 rounded-full' />
         <div className='w-80% font-bold text-sm'>
